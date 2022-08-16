@@ -1,69 +1,144 @@
-body{
-    background: #232423;
-    background-image: url(/assets/images/intro.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 1896px 444px;
+/*Clearing*/
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #a8d8d8;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    background: rgb(87,87,87);
+    background: linear-gradient(270deg, rgba(87,87,87,1) 0%, rgba(47,47,47,1) 47%, rgba(23,23,23,1) 96%);
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: ghostwhite;
+    font-weight: 400;
+    font-family: Montserrat;
 }
 
-h1{
-    font-family: noto-sans, sans-serif;
-    font-style: normal;
-    font-size: 110px;
-    color: #c0d7e0;
-    width: 200px;
-    margin-top: 330px;
-    margin-left: 660px;
-
-    position: absolute;
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;;
+}
+._container {
+    max-width: 1046px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: border-box;
 }
 
-h2{
-    font-family: noto-sans, sans-serif;
-    font-style: normal;
-    font-size: 60px;
-    color: #eeeeee;
-    margin-left: 1000px;
-    margin-top: 500px;
-
-    position: absolute;
+/*Branding*/
+.branding__container{
+    width: 100%;
+    height: 100px;
 }
 
-.texts{
-    font-family: noto-sans, then;
-    color: #eeeeee;
-    font-size: 45px;
-    width: auto;
-    margin-top: 590px;
-    margin-left: 850px;
-
-    position: absolute;
+.branding__inner{
+    padding: 25px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
 }
 
-.ava {
-    float: left;
-    margin-left: 227px;
-    margin-top: 243px;
-    width: 432px;
-    height: 432px;
-
-    position: absolute;
+.small__logo a{
+    color: whitesmoke;
 }
 
-p {
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-}
-.all{
-    position: relative;
-}
-.all img{
-    position: absolute;
+.small__logo a:hover{
+    color: #ccffff;
 }
 
-.button{
-    float: left;
-    margin-top: 680px;
-    margin-left: 285px;
-    position: absolute;
+.branding__inner .small__logo{
+    width: 250px;
+    display: flex
 }
+
+.branding__inner .small__logo img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.branding__inner .small__logo h2{
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-top: 7px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all .5s ease
+}
+
+.main__head{
+    margin-top: 50px
+}
+.main__container{
+    width: 90%;
+    margin: 0 5%;
+    color: #FFF;
+    display: flex
+}
+
+.main__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.main__logo img{
+    transition: all .5s ease;
+    border-radius: 2.5rem;
+    width: 25vw;
+    margin: 0 10vw
+}
+
+.main__aboutMe{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+    transition: all .5s ease
+}
+
+.main__aboutMe h1{
+    font-weight: 600;
+    font-size: 4vw
+}
+
+.main__aboutMe p{
+    line-height: 10px;
+    font-size: 1.5vw
+}
+
+
