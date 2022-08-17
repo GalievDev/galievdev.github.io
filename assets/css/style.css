@@ -31,17 +31,31 @@ h6 {
 }
 html,
 body {
-    background: rgb(87,87,87);
-    background: linear-gradient(270deg, rgba(87,87,87,1) 0%, rgba(47,47,47,1) 47%, rgba(23,23,23,1) 96%);
-    height: 100%;
+    background: linear-gradient(-45deg, rgb(59, 59, 59), rgba(47,47,47,1), rgb(26, 26, 26), #000000, #2b2b2b, #0b0b0b);
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    background-size: 400% 400%;
     line-height: 1;
     font-size: 16px;
     color: ghostwhite;
     font-weight: 400;
     font-family: Montserrat;
 }
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 .wrapper {
+    max-width: 1940px;
+    max-height: 3000px;
     min-height: 100%;
     overflow: hidden;;
 }
@@ -101,6 +115,9 @@ body {
 .main__head{
     margin-top: 50px
 }
+.void{
+    margin-top: 100px;
+}
 .main__container{
     width: 90%;
     margin: 0 5%;
@@ -141,4 +158,110 @@ body {
     font-size: 1.5vw
 }
 
+.project__container{
+    width: 90%;
+    margin: 0 5%;
+    color: #FFF;
+    display: flex
+}
+
+.project .project_main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2;
+    transition: all .5s ease
+}
+
+.project .project_main{
+    font-size: 1.75vw
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media(max-width:1300px){
+    .main__logo img {
+        margin: 0 2.5vw
+    }
+    .main__aboutMe {
+        margin-left: 45px
+    }
+    .main_aboutMe h1{
+        font-size: 3vw
+    }
+    .main_aboutMe h2 {
+        font-size: 2.5vw
+    }
+    .main_aboutMe h3{
+        font-size: 2.25vw
+    }
+    .main_aboutMe p{
+        font-size: 1.5vw
+    }
+    .main_aboutMe a{
+        font-size: 1.5vw;
+        width: 35%
+    }
+}
+
+@media(max-width:1025px) {
+}
+
+@media(max-width:800px) {
+    .main__logo img {
+        margin: 0 2.5vw
+    }
+    .main_aboutMe h1 {
+        font-size: 4vw
+    }
+    .main_aboutMe h2 {
+        font-size: 3.5vw
+    }
+    .main_aboutMe h3 {
+        font-size: 3vw
+    }
+    .main_aboutMe p {
+        font-size: 2vw
+    }
+    .main_aboutMe a{
+        font-size: 2vw;
+        width: 40%
+    }
+}
+
+@media(max-width:550px) {
+    .main__logo {
+        width: 100%
+    }
+    .main__logo img {
+        width: 65%;
+        margin: 0 auto
+    }
+    .main_aboutMe {
+        margin-left: 0
+    }
+    .main_aboutMe h1 {
+        font-size: 6vw
+    }
+    .main_aboutMe h2 {
+        font-size: 5vw
+    }
+    .main_aboutMe h3 {
+        font-size: 4.5vw
+    }
+    .main_aboutMe p {
+        font-size: 4vw
+    }
+}
 

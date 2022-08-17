@@ -3,9 +3,152 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/itc-slider.css">
+    <script src="/assets/js/itc-slider.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GalievDev</title>
+    <style>
+        .slider__wrapper {
+            overflow: hidden;
+            margin-left: -5px;
+            margin-right: -5px;
+            font-family: Montserrat;
+        }
+
+        @media (min-width: 768px) {
+            .slider__item {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .slider__item {
+                flex: 0 0 33.3333333333%;
+                max-width: 33.3333333333%;
+            }
+        }
+
+        .slider__item-content {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .slider__content_header {
+            position: relative;
+        }
+
+        .slider__content_img {
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+
+        .slider__content_section {
+            position: absolute;
+            bottom: 6px;
+            left: 10px;
+            background-color: rgba(203, 190, 190, 0.5);
+            color: #fff;
+            padding: 6px 10px;
+            font-size: 14px;
+            border-radius: 12px;
+            line-height: 1;
+        }
+
+        .slider__content_title {
+            background: #3f3f3f;
+            color: #ffffff;
+            white-space: normal;
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 1;
+            padding: 10px 15px;
+            margin: 0;
+            height: 52px;
+        }
+
+        .slider__content_title a{
+            color: #FFFFFF;
+        }
+
+        .slider__content_title a:hover{
+            color: #ccffff;
+        }
+
+        .slider__content_info{
+            font-weight: 400;
+            background: #383838;
+            color: #ffffff;
+            white-space: normal;
+            font-size: 28px;
+            line-height: 1;
+            padding: 10px 15px;
+            margin: 0;
+            height: 52px;
+        }
+        .slider__content_info a{
+            color: #ffffff;
+        }
+        .slider__content_info a:hover{
+            color: #ccffff;
+        }
+
+        .slider__content_footer {
+            background: #383838;
+        ;
+            display: flex;
+            padding: 20px 15px;
+            color: #616161;
+            height: 100px;
+        }
+
+        .slider__content_avatar {
+            flex: 0 0 40px;
+            max-width: 40px;
+        }
+
+        .slider__content_photo {
+            display: block;
+            height: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        .slider__content_icon {
+            height: 18px;
+            margin-top: 12px;
+            margin-left: auto;
+        }
+
+        .slider__content_views {
+            margin-left: 4px;
+            line-height: 40px;
+        }
+
+        .slider__control {
+            background-color: unset;
+        }
+
+        .slider__control:hover,
+        .slider__control:focus {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        .slider__indicators {
+            bottom: -55px;
+        }
+
+        .slider__indicators li {
+            background-color: #eee;
+        }
+
+        .slider__indicators li.active {
+            background-color: #757575;
+        }
+
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -29,6 +172,180 @@
                     </div>
                 </div>
             </section>
+        <section class="project">
+            <div class="project__container">
+                <div class="project_main">
+                    <h2>My Projects</h2>
+                </div>
+            </div>
+            <div class="slider" data-slider="itc-slider" data-loop="true" data-autoplay="true" data-interval="5000" data-refresh="true">
+                <div class="slider__container">
+                    <div class="slider__wrapper">
+                        <div class="slider__items">
+                            <div class="slider__item">
+                                <!-- Начало контента 1 слайда -->
+                                <div class="slider__item-container">
+                                    <div class="slider__item-content">
+                                        <div class="slider__content_header">
+                                            <img class="slider__content_img" src="/assets/images/vbs.jpg" alt="..." width="700"
+                                                 height="250" loading="lazy">
+                                            <span class="slider__content_section">Minecraft Mod</span>
+                                        </div>
+                                        <h2 class="slider__content_title"><a href="https://www.curseforge.com/minecraft/mc-mods/very-bad-snowman" target="_blank">Very Bad Snowman (VBS)</a></h2>
+                                        <div class="slider__content_footer">
+                                            <ul class="slider__content_info">
+                                                <li>Status: Released.</li>
+                                                <li>Minecraft Version: 1.16.5-1.18 (Forge).</li>
+                                                <li><a href="https://github.com/0mods/VeryBadSnowman" target="_blank">GitHub Repository</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Конец контента 1 слайда -->
+                            </div>
+                            <div class="slider__item">
+                                <!-- Начало контента 2 слайда -->
+                                <div class="slider__item-container">
+                                    <div class="slider__item-content">
+                                        <div class="slider__content_header">
+                                            <img class="slider__content_img" src="/assets/images/mf.jpg" alt="..." width="700"
+                                                 height="250" loading="lazy">
+                                            <span class="slider__content_section">Minecraft Mod</span>
+                                        </div>
+                                        <h2 class="slider__content_title"><a href="" target="_blank">Many Flowers</a></h2>
+                                        <div class="slider__content_footer">
+                                            <ul class="slider__content_info">
+                                                <li>Status: In Processing.</li>
+                                                <li>Minecraft Version: 1.18.2 (Fabric).</li>
+                                                <li><a href="https://github.com/GalievDev/ManyFlowers" target="_blank">GitHub Repository</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Конец контента 2 слайда -->
+                            </div>
+                            <div class="slider__item">
+                                <!-- Начало контента 3 слайда -->
+                                <div class="slider__item-container">
+                                    <div class="slider__item-content">
+                                        <div class="slider__content_header">
+                                            <img class="slider__content_img" src="/assets/images/em.jpg" alt="..." width="700"
+                                                 height="250" loading="lazy">
+                                            <span class="slider__content_section">Minecraft Mod</span>
+                                        </div>
+                                        <h2 class="slider__content_title"><a href="" target="_blank">Ecologic Magic</a></h2>
+                                        <div class="slider__content_footer">
+                                            <ul class="slider__content_info">
+                                                <li>Status: Stopped.</li>
+                                                <li>Minecraft Version: 1.16.5 (Forge).</li>
+                                                <li><a href="https://github.com/0mods/EcologicMagicMod" target="_blank">GitHub Repository</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Конец контента 3 слайда -->
+                            </div>
+                            <div class="slider__item">
+                                <!-- Начало контента 4 слайда -->
+                                <div class="slider__item-container">
+                                    <div class="slider__item-content">
+                                        <div class="slider__content_header">
+                                            <img class="slider__content_img" src="/assets/images/gd.jpg" alt="..." width="700"
+                                                 height="250" loading="lazy">
+                                            <span class="slider__content_section">WebSite</span>
+                                        </div>
+                                        <h2 class="slider__content_title"><a href="https://galievdev.github.io/" target="_blank">GalievDev</a></h2>
+                                        <div class="slider__content_footer">
+                                            <ul class="slider__content_info">
+                                                <li>Status: Released.</li>
+                                                <li>Used HTML, CSS and JS.</li>
+                                                <li><a href="https://github.com/GalievDev/galievdev.github.io" target="_blank">GitHub Repository</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Конец контента 4 слайда -->
+                            </div>
+                            <div class="slider__item">
+                                <!-- Начало контента 5 слайда -->
+                                <div class="slider__item-container">
+                                    <div class="slider__item-content">
+                                        <div class="slider__content_header">
+                                            <img class="slider__content_img" src="/assets/images/-.jpg" alt="..." width="700"
+                                                 height="250" loading="lazy">
+                                            <span class="slider__content_section">------</span>
+                                        </div>
+                                        <h2 class="slider__content_title"><a href="" target="_blank">-----</a></h2>
+                                        <div class="slider__content_footer">
+                                            <ul class="slider__content_info">
+                                                <li>------</li>
+                                                <li>------</li>
+                                                <li><a href="" target="_blank">------</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Конец контента 5 слайда -->
+                            </div>
+                            <div class="slider__item">
+                                <!-- Начало контента 6 слайда -->
+                                <div class="slider__item-container">
+                                    <div class="slider__item-content">
+                                        <div class="slider__content_header">
+                                            <img class="slider__content_img" src="/assets/images/-.jpg" alt="..." width="700"
+                                                 height="250" loading="lazy">
+                                            <span class="slider__content_section">------</span>
+                                        </div>
+                                        <h2 class="slider__content_title"><a href="" target="_blank">------</a></h2>
+                                        <div class="slider__content_footer">
+                                            <ul class="slider__content_info">
+                                                <li>------</li>
+                                                <li>------</li>
+                                                <li><a href="" target="_blank">------</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Конец контента 6 слайда -->
+                            </div>
+                            <div class="slider__item">
+                                <!-- Начало контента 7 слайда -->
+                                <div class="slider__item-container">
+                                    <div class="slider__item-content">
+                                        <div class="slider__content_header">
+                                            <img class="slider__content_img" src="/assets/images/-.jpg" alt="..." width="700"
+                                                 height="250" loading="lazy">
+                                            <span class="slider__content_section">------</span>
+                                        </div>
+                                        <h2 class="slider__content_title"><a href="" target="_blank">------</a></h2>
+                                        <div class="slider__content_footer">
+                                            <ul class="slider__content_info">
+                                                <li>------</li>
+                                                <li>------</li>
+                                                <li><a href="" target="_blank">------</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Конец контента 7 слайда -->
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider__control" data-slide="prev"></button>
+                    <button class="slider__control" data-slide="next"></button>
+                    <ol class="slider__indicators">
+                        <li data-slide-to="0"></li>
+                        <li data-slide-to="1"></li>
+                        <li data-slide-to="2"></li>
+                        <li data-slide-to="3"></li>
+                        <li data-slide-to="4"></li>
+                        <li data-slide-to="5"></li>
+                        <li data-slide-to="6"></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="void"></section>
         </div>
 </body>
 </html>
