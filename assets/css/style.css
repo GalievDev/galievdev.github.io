@@ -54,7 +54,6 @@ body {
 }
 
 .wrapper {
-    max-width: 1940px;
     max-height: 3000px;
     min-height: 100%;
     overflow: hidden;;
