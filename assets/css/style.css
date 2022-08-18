@@ -212,14 +212,11 @@ h3{
         font-size: 3vw;
         line-height: 30px;
     }
-    .small__logo{
-        width: 50px;
-    }
     h2{
         font-size: 4vw
     }
     h3{
-        margin-top: 15px;
+        margin-top: 10px;
         font-size: 1.5em;
     }
 }
@@ -240,6 +237,9 @@ h3{
     .main__aboutMe p {
         font-size: 4vw;
         line-height: 30px;
+    }
+    .small__logo{
+        margin-left: 30vw;
     }
 }
 
@@ -264,6 +264,9 @@ h3{
     .main__aboutMe p {
         font-size: 4vw;
         line-height: 20px;
+    }
+    .small__logo{
+        margin-left: 30vw;
     }
 }
 
