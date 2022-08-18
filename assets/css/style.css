@@ -241,7 +241,7 @@ h2{
 
 @media(max-width:550px) {
     .main__logo {
-        width: 100%
+        width: 200%
     }
     .main__logo img {
         width: 65%;
