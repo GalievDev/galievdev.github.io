@@ -153,8 +153,8 @@ body {
 }
 
 .main__aboutMe p{
-    line-height: 10px;
-    font-size: 1.5vw
+    line-height: 30px;
+    font-size: 2vw
 }
 
 .project__container{
@@ -189,28 +189,38 @@ h2{
     font-weight: bold;
 }
 
+h3{
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
 @media(max-width:1300px){
     .main__logo img {
-        margin: 0 2.5vw
+        margin: 0 2vw
     }
     .main__aboutMe {
-        margin-left: 45px
+        margin-left: 45px;
     }
-    .main_aboutMe h1{
+    .main__aboutMe h1
+    .project_main h1{
         font-size: 3vw
     }
-    .main_aboutMe h2 {
-        font-size: 2.5vw
+    .main__aboutMe h2 {
+        font-size: 3vw
     }
-    .main_aboutMe h3{
-        font-size: 2.25vw
+    .main__aboutMe p{
+        font-size: 3vw;
+        line-height: 30px;
     }
-    .main_aboutMe p{
-        font-size: 1.5vw
+    .small__logo{
+        width: 50px;
     }
-    .main_aboutMe a{
-        font-size: 1.5vw;
-        width: 35%
+    h2{
+        font-size: 4vw
+    }
+    h3{
+        margin-top: 15px;
+        font-size: 1.5em;
     }
 }
 
@@ -219,23 +229,17 @@ h2{
 
 @media(max-width:800px) {
     .main__logo img {
-        margin: 0 2.5vw
+        margin: 0 2vw
     }
-    .main_aboutMe h1 {
+    .main__aboutMe h1 {
         font-size: 4vw
     }
-    .main_aboutMe h2 {
-        font-size: 3.5vw
+    h2 {
+        font-size: 4vw
     }
-    .main_aboutMe h3 {
-        font-size: 3vw
-    }
-    .main_aboutMe p {
-        font-size: 2vw
-    }
-    .main_aboutMe a{
-        font-size: 2vw;
-        width: 40%
+    .main__aboutMe p {
+        font-size: 4vw;
+        line-height: 30px;
     }
 }
 
@@ -247,21 +251,19 @@ h2{
         width: 65%;
         margin: 0 auto
     }
-    .main_aboutMe {
-        margin-left: 0;
+    .main__aboutMe {
+        float: left;
         width: 100%;
     }
-    .main_aboutMe h1 {
+    .main__aboutMe h1 {
         font-size: 6vw
     }
-    .main_aboutMe h2 {
-        font-size: 5vw
+    h2 {
+        font-size: 6vw
     }
-    .main_aboutMe h3 {
-        font-size: 4.5vw
-    }
-    .main_aboutMe p {
-        font-size: 4vw
+    .main__aboutMe p {
+        font-size: 4vw;
+        line-height: 20px;
     }
 }
 
