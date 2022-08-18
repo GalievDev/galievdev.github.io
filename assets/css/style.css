@@ -248,7 +248,8 @@ h2{
         margin: 0 auto
     }
     .main_aboutMe {
-        margin-left: 0
+        margin-left: 0;
+        width: 100%;
     }
     .main_aboutMe h1 {
         font-size: 6vw
