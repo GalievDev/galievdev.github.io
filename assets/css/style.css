@@ -114,9 +114,11 @@ body {
 .main__head{
     margin-top: 50px
 }
+
 .void{
     margin-top: 100px;
 }
+
 .main__container{
     width: 90%;
     margin: 0 5%;
@@ -153,7 +155,7 @@ body {
 }
 
 .main__aboutMe p{
-    line-height: 30px;
+    line-height: 50px;
     font-size: 2vw
 }
 
