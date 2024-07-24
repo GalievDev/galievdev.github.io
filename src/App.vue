@@ -18,7 +18,7 @@ function toggleTheme () {
 <template>
   <v-app>
     <v-layout>
-      <v-main class="ma-5 rounded-xl opacity-90">
+      <v-main class="rounded-xl opacity-90">
         <v-container class="position-absolute" align="right">
           <v-btn position="absolute" icon="mdi-weather-night" @click="toggleTheme"></v-btn>
         </v-container>
