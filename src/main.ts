@@ -34,7 +34,7 @@ const vuetify = createVuetify({
       }
     },
     theme: {
-        defaultTheme: 'light',
+        defaultTheme: theme,
     }
 })
 
