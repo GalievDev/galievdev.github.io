@@ -5,15 +5,15 @@
 <template>
   <v-container class="mt-16" align="center" justify="center">
     <h1>
-      Educations
+      Education
     </h1>
-    <v-divider class="ma-4 w-50"></v-divider>
+    <v-divider class="ma-4 w"></v-divider>
     <v-row no-gutters align="center" justify="center">
-      <v-card class="w-50" rounded variant="flat" link>
+      <v-card class="w" rounded variant="flat" link>
         <v-row no-gutters class="pa-6 ma-6">
           <v-col class="text-left"
                  xs="10"
-                 sm="7"
+                 sm="10"
                  md="4"
                  lg="3"
                  xl="3"
@@ -32,7 +32,7 @@
           </v-col>
           <v-col>
             <p class="text-center">
-              In 9th grade teacher started learn us to python development and since this time I started learning programming and creating Minecraft mods.
+              In 9th grade teacher teach us to Python development and since this time I started learning programming and creating Minecraft mods.
               I liked to solve problems in physics and mathematics, as well as studying history.
               In 11th grade I decided to devote myself entirely to Java development.
             </p>
@@ -41,7 +41,7 @@
       </v-card>
     </v-row>
     <v-row no-gutters class="mt-8" align="center" justify="center">
-      <v-card class="w-50" rounded variant="flat" link>
+      <v-card class="w" rounded variant="flat" link>
         <v-row no-gutters class="pa-6 ma-6">
           <v-col>
             <p class="text-center">
@@ -52,7 +52,7 @@
           </v-col>
           <v-col class="text-right"
                  xs="10"
-                 sm="7"
+                 sm="10"
                  md="4"
                  lg="3"
                  xl="3"
@@ -73,11 +73,11 @@
       </v-card>
     </v-row>
     <v-row no-gutters class="mt-8" align="center" justify="center">
-      <v-card class="w-50" rounded variant="flat" link>
+      <v-card class="w" rounded variant="flat" link>
         <v-row no-gutters class="pa-6 ma-6">
           <v-col class="text-left"
                  xs="10"
-                 sm="7"
+                 sm="10"
                  md="4"
                  lg="3"
                  xl="3"
@@ -116,4 +116,36 @@ h1 {
 h2 {
   color: #ffad2e;
 }
+
+.w {
+  width: 50%;
+}
+
+@media screen and (max-width: 1920px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w {
+    width: 75%;
+  }
+  h2 {
+    font-size: 17px;
+  }
+}
+
 </style>

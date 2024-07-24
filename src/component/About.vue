@@ -7,7 +7,7 @@
     <h1>
       About me
     </h1>
-    <v-divider class="ma-4 w-50"></v-divider>
+    <v-divider class="ma-4 w"></v-divider>
     <v-row no-gutters class="w-auto">
       <v-col order="first" align="right" justify="right">
         <p class="mt-16 description">
@@ -64,15 +64,25 @@ h1, h2 {
   width: 25%;
 }
 
+.w {
+  width: 50%;
+}
+
 @media screen and (max-width: 1920px) {
   .description {
-    width: 50%;
+    width: 35%;
+  }
+  .w {
+    width: 75%;
   }
 }
 
 @media screen and (max-width: 960px) {
   .description {
     width: 100%;
+  }
+  .w {
+    width: 75%;
   }
 }
 
@@ -81,6 +91,9 @@ h1, h2 {
     width: 100%;
     text-align: center;
     align-self: end;
+  }
+  .w {
+    width: 75%;
   }
 }
 

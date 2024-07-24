@@ -7,13 +7,13 @@
     <h1>
       Experience
     </h1>
-    <v-divider class="ma-4 w-50"></v-divider>
+    <v-divider class="ma-4 w"></v-divider>
     <v-row no-gutters align="center" justify="center">
-      <v-card class="w-50" rounded variant="flat" link>
+      <v-card class="w" rounded variant="flat" link>
         <v-row no-gutters class="pa-6 ma-6">
           <v-col class="text-left"
                  xs="10"
-                 sm="7"
+                 sm="10"
                  md="4"
                  lg="2"
                  xl="2"
@@ -37,7 +37,7 @@
       </v-card>
     </v-row>
     <v-row no-gutters class="mt-8" align="center" justify="center">
-      <v-card class="w-50" rounded variant="flat" link>
+      <v-card class="w" rounded variant="flat" link>
         <v-row no-gutters class="pa-6 ma-6">
           <v-col>
             <p class="text-center">
@@ -47,7 +47,7 @@
           </v-col>
           <v-col class="text-right"
                  xs="10"
-                 sm="7"
+                 sm="10"
                  md="4"
                  lg="2"
                  xl="2"
@@ -74,5 +74,36 @@ h1 {
 
 h2 {
   color: #ffad2e;
+}
+
+.w {
+  width: 50%;
+}
+
+@media screen and (max-width: 1920px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w {
+    width: 75%;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
 </style>

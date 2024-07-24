@@ -14,13 +14,13 @@ export default defineComponent({
     <h1>
       Projects
     </h1>
-    <v-divider class="mt-4 w-50"></v-divider>
-    <v-row no-gutters class="w-50">
+    <v-divider class="mt-4 w"></v-divider>
+    <v-row no-gutters class="w">
       <v-col
-          xs="1"
-          sm="7"
-          md="10"
-          lg="10"
+          xs="15"
+          sm="15"
+          md="12"
+          lg="6"
           xl="4"
           xxl="4"
           v-for="(project, name) in projects"
@@ -56,5 +56,33 @@ export default defineComponent({
 h1 {
   color: #ffad2e;
   font-weight: 100
+}
+
+.w {
+  width: 50%;
+}
+
+@media screen and (max-width: 1920px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .w {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w {
+    width: 75%;
+  }
 }
 </style>
