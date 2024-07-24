@@ -1,6 +1,6 @@
 <script lang="ts">
 import { defineComponent } from "vue";
-import projects from "../assets/json/projects.json"
+import projects from "../data/projects.json"
 
 export default defineComponent({
   setup() {

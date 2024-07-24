@@ -21,7 +21,7 @@
              xl="2"
              xxl="2">
         <v-avatar rounded="4" size="260" class="mt-10 position-relative">
-          <v-img src="src/assets/image/galiev.jpg" alt="galiev"></v-img>
+          <v-img src="../image/galiev.jpg" alt="galiev"></v-img>
         </v-avatar>
       </v-col>
       <v-col order="last" align="left" justify="left">

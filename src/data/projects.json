@@ -5,7 +5,7 @@
       "description": "Team university project, the intention of the project is to collect outfits and capsules from clothes, and the picture for the outfit or capsule will be generated automatically.",
       "repo": "https://github.com/GalievDev/country-service",
       "link": "http://51.250.36.103:3000/#/",
-      "image": "/src/assets/image/shopping_map.png",
+      "image": "../image/shopping_map.png",
       "tags": [
         "Kotlin",
         "Python",
@@ -20,7 +20,7 @@
       "description": "The service offers comprehensive information about countries worldwide, including their respective capitals, populations, and national flags.",
       "repo": "https://github.com/GalievDev/country-service",
       "link": "https://galievdev.github.io/country-service-frontend/",
-      "image": "/src/assets/image/countries.png",
+      "image": "../image/countries.png",
       "tags": [
         "Java",
         "Kotlin",
@@ -35,7 +35,7 @@
       "description": "The system comprises a straightforward online shop with accounts, balances and products, with separate accounts for the administrator and the buyer.",
       "repo": "https://github.com/GalievDev/StoreUz",
       "link": "https://freelance.habr.com/projects/312471",
-      "image": "/src/assets/image/store.jpg",
+      "image": "../image/store.jpg",
       "tags": [
         "Java",
         "JavaFX",
@@ -47,7 +47,7 @@
       "description": "A simple post system that allows you to create and store posts in a database, as well as edit and delete them.",
       "repo": "https://github.com/GalievDev/posts-system/",
       "link": "https://freelance.habr.com/projects/387773",
-      "image": "/src/assets/image/posts.jpeg",
+      "image": "../image/posts.jpeg",
       "tags": [
         "Java",
         "Spring Boot",
@@ -60,7 +60,7 @@
       "description": "The Weather API uses to get information about weather and to take advantage of the limited free version of OpenWeatherMap.",
       "repo": "https://github.com/GalievDev/weather-spring-app",
       "link": "https://http.cat/404",
-      "image": "/src/assets/image/weathers.jpg",
+      "image": "../image/weathers.jpg",
       "tags": [
         "Kotlin",
         "Spring Boot"
@@ -71,7 +71,7 @@
       "description": "Minecraft Mod that adds flowers with different abilities and the game is now not so empty and not so boring.",
       "repo": "https://github.com/GalievDev/many-flowers",
       "link": "https://www.curseforge.com/minecraft/mc-mods/many-flowers",
-      "image": "/src/assets/image/many_flowers.png",
+      "image": "../image/many_flowers.png",
       "tags": [
         "Java",
         "Fabric MC"
@@ -82,7 +82,7 @@
       "description": "Minecraft Mod that made for ModeFest Sky and Sea and adds two gods of Olympus",
       "repo": "https://github.com/GalievDev/gods-of-olympus",
       "link": "https://modrinth.com/mod/gods-of-olympus",
-      "image": "/src/assets/image/goo.png",
+      "image": "../image/goo.png",
       "tags": [
         "Java",
         "Fabric MC"
