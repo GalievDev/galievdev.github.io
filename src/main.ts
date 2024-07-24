@@ -9,7 +9,7 @@ import * as directives from 'vuetify/directives'
 
 import App from './App.vue'
 
-let theme: string;
+/*let theme: string;
 
 const hours = new Date().getHours()
 
@@ -21,7 +21,7 @@ if (hours >= 18 || hours < 6) {
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     theme = 'dark'
-}
+}*/
 
 const vuetify = createVuetify({
     components,
@@ -34,7 +34,7 @@ const vuetify = createVuetify({
       }
     },
     theme: {
-        defaultTheme: theme,
+        defaultTheme: 'light',
     }
 })
 
