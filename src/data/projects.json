@@ -3,7 +3,7 @@
     "shopping_map": {
       "name": "Shopping Map",
       "description": "Team university project, the intention of the project is to collect outfits and capsules from clothes, and the picture for the outfit or capsule will be generated automatically.",
-      "repo": "https://github.com/GalievDev/country-service",
+      "repo": "https://github.com/GalievDev/shopping-map",
       "link": "http://51.250.36.103:3000/#/",
       "image": "../image/shopping_map.png",
       "tags": [
