@@ -30,6 +30,19 @@
         "Vue JS"
       ]
     },
+    "it_quiz_bot": {
+      "name": "IT Quiz Bot",
+      "description": "IT Quiz Bot is a Telegram bot built using the grammY framework, this bot provides an interactive quiz experience with multiple categories and difficulty levels.",
+      "repo": "https://github.com/GalievDev/it-quiz-bot/tree/master",
+      "link": "https://github.com/GalievDev/it-quiz-bot/tree/master",
+      "image": "../image/it_quiz_bot.png",
+      "tags": [
+        "TypeScript",
+        "grammY",
+        "TypeORM",
+        "PostgreSQL"
+      ]
+    },
     "store": {
       "name": "StoreUz",
       "description": "The system comprises a straightforward online shop with accounts, balances and products, with separate accounts for the administrator and the buyer.",
