@@ -91,12 +91,12 @@
               Innopolis, Russia
             </u>
             <p class="text-orange-accent-1">
-              Aug 2023 - Current
+              Aug 2023 - Dec 2024
             </p>
           </v-col>
           <v-col align="right">
             <p class="text-center">
-              Bachelor of Computer Science and Engineering. I am currently pursuing my higher education, with a focus on the fundamentals of
+              Uncompleted Bachelor Degree of Computer Science and Engineering. I got uncompleted higher education, with a focus on the fundamentals of
               computer science, including algorithms and data structures, as well as the architecture of computing devices.
               In addition, I have gained valuable experience in project management and team leadership through my involvement in various projects.
             </p>
