@@ -42,7 +42,7 @@
             Location:
           </b>
           <p>
-            <u>Innopolis, Russia</u>
+            <u>Tashkent, Uzbekistan</u>
           </p>
         </p>
       </v-col>
