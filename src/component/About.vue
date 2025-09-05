@@ -5,13 +5,16 @@
 <template>
   <v-container class="mt-16" align="center" justify="center">
     <h1>
-      About me
+      <b> About me </b>
     </h1>
     <v-divider class="ma-4 w"></v-divider>
     <v-row no-gutters class="w-auto">
       <v-col order="first" align="right" justify="right">
         <p class="mt-16 description">
-          I'm a 18 years old Full Stack developer, more Backend orientated, with over 3 years of code experience. My main work area is web development, but I also develop mods for Minecraft and simple Android apps.
+          I'm a Java Developer with solid experience in banking risk technologies.
+          I have worked with tools such as Camunda 7/8 and WingsAI, and have hands-on
+          experience integrating Spring-based services with decision and risk engines.
+          I’m always open to contributing my skills to build reliable and efficient solutions.
         </p>
       </v-col>
       <v-col align="center" justify="center"

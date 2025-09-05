@@ -5,7 +5,7 @@
 <template>
   <v-container class="mt-16" align="center" justify="center">
     <h1>
-      Education
+      <b> Education </b>
     </h1>
     <v-divider class="ma-4 w"></v-divider>
     <v-row no-gutters align="center" justify="center">
@@ -43,38 +43,6 @@
     <v-row no-gutters class="mt-8" align="center" justify="center">
       <v-card class="w" rounded variant="flat" link>
         <v-row no-gutters class="pa-6 ma-6">
-          <v-col>
-            <p class="text-center">
-              Java programming.
-              This course helped me more in learning frameworks like Spring Boot, JavaFX and gave me the concept of MySQL database.
-              I completed the course before anyone else, as I already knew the basics and was able to pass the final project and receive a certificate of successful completion of the course.
-            </p>
-          </v-col>
-          <v-col class="text-right"
-                 xs="10"
-                 sm="10"
-                 md="4"
-                 lg="3"
-                 xl="3"
-                 xxl="3"
-                 justify="center">
-            <h2>
-              BePro IT Academy
-            </h2>
-            <u class="text-grey-lighten-1">
-              <v-icon icon="mdi-map-marker" size="20"></v-icon>
-              Tashkent, Uzbekistan
-            </u>
-            <p class="text-orange-accent-1">
-              Oct 2022 - Feb 2023
-            </p>
-          </v-col>
-        </v-row>
-      </v-card>
-    </v-row>
-    <v-row no-gutters class="mt-8" align="center" justify="center">
-      <v-card class="w" rounded variant="flat" link>
-        <v-row no-gutters class="pa-6 ma-6">
           <v-col class="text-left"
                  xs="10"
                  sm="10"
@@ -99,6 +67,36 @@
               Uncompleted Bachelor Degree of Computer Science and Engineering. I got uncompleted higher education, with a focus on the fundamentals of
               computer science, including algorithms and data structures, as well as the architecture of computing devices.
               In addition, I have gained valuable experience in project management and team leadership through my involvement in various projects.
+            </p>
+          </v-col>
+        </v-row>
+      </v-card>
+    </v-row>
+    <v-row no-gutters class="mt-8" align="center" justify="center">
+      <v-card class="w" rounded variant="flat" link>
+        <v-row no-gutters class="pa-6 ma-6">
+          <v-col class="text-left"
+                 xs="10"
+                 sm="10"
+                 md="4"
+                 lg="3"
+                 xl="3"
+                 xxl="3"
+                 justify="center">
+            <h2>
+              TUIT
+            </h2>
+            <u class="text-grey-lighten-1">
+              <v-icon icon="mdi-map-marker" size="20"></v-icon>
+              Tashkent, Uzbekistan
+            </u>
+            <p class="text-orange-accent-1">
+              Aug 2025 - Current
+            </p>
+          </v-col>
+          <v-col align="right">
+            <p class="text-center">
+              Bachelor Degree of Software Engineering. Nothing can say about that :)
             </p>
           </v-col>
         </v-row>

@@ -12,7 +12,7 @@ export default defineComponent({
 <template>
   <v-container class="mt-16" align="center">
     <h1>
-      Projects
+      <b> Projects </b>
     </h1>
     <v-divider class="mt-4 w"></v-divider>
     <v-row no-gutters class="w">

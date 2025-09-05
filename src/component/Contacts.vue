@@ -5,23 +5,23 @@
 <template>
   <v-container class="mt-16" align="center">
     <h1>
-      Contacts
+      <b> Contacts </b>
     </h1>
     <v-divider class="ma-4 w"></v-divider>
     <v-row no-gutters class="w" align="center" justify="center">
       <v-container>
         <h2>
-          I am open to job offers and also to short-term projects (freelance).
+          I am open to job offers and also to short-term projects.
         </h2>
 
         <v-row no-gutters class="mt-8" align="center" justify="center">
           <v-col xs="10" sm="7" md="5" lg="3" xl="3" xxl="3">
-            <v-btn class="mt-2" size="large" prepend-icon="mdi-telegram" rounded href="https://t.me/vgaliev4" target="_blank">
+            <v-btn class="mt-2" size="large" prepend-icon="mdi-telegram" rounded href="https://t.me/galievdev" target="_blank">
               Telegram
             </v-btn>
           </v-col>
           <v-col xs="10" sm="7" md="5" lg="3" xl="3" xxl="3">
-            <v-btn class="mt-2" size="large" prepend-icon="mdi-linkedin" rounded href="https://www.linkedin.com/in/vazir-vadirov-462364261/" target="_blank">
+            <v-btn class="mt-2" size="large" prepend-icon="mdi-linkedin" rounded href="https://www.linkedin.com/in/vvadirov/" target="_blank">
               LinkedIn
             </v-btn>
           </v-col>

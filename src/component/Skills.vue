@@ -26,7 +26,7 @@ export default defineComponent({
 <template>
   <v-container class="mt-16" align="center" justify="center">
     <h1>
-      Skills
+      <b> Skills </b>
     </h1>
     <v-divider class="ma-2 w"></v-divider>
     <v-row no-gutters class="w" align="center" justify="center">
